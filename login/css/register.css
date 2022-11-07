@@ -1,0 +1,63 @@
+body{
+    flex-wrap: wrap;
+    background-color: #B9F29E;
+ }
+ 
+ .logo{
+     display: flex;
+     justify-content: center;
+     padding-top: 100px;
+ }
+ .tituloimg{
+     display: flex;
+     justify-content: center;
+     padding-top: 10px;
+     padding-bottom: 50px;
+ }
+ .btn-btn-primary{
+     cursor: pointer;
+     font-size: 22px;
+     border-radius: 40px;
+     position: absolute;
+     width: 265px;
+     height: 55px;
+     color:black;
+     background-color: #FF4B3A;
+     border-color: transparent;
+     font-style:normal;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+ }
+ .buttom{
+     display: flex;
+     justify-content: center;
+ }
+ #contrasenha, #usuario{
+     text-align: center;
+ }
+ #floatingInput, #floatingPassword{
+     width: 365px;
+     margin-left: 12%;
+     border-color: #B9F29E;
+     border-radius: 40px;
+     
+ }
+div img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+div a{
+    margin: 20px;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+}
+p{
+    display: flex;
+    justify-content: center;
+    padding-top: 4%;
+    font-family: 'Courier New', Courier, monospace;
+}
