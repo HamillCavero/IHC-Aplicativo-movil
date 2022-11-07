@@ -1,0 +1,396 @@
+:root { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+}
+
+body {
+  /* max-width: 900px; */
+  text-align: center;
+  /* padding-left: 25%;
+  padding-right: 25%; */
+  margin: 0px;
+}
+
+header{
+  background-color: #BEDEDD;
+  height: 79px;
+  text-align: center;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  height: 79px;
+}
+.menu{
+  text-align: center;
+  padding-top: 30px;
+  padding-right: 10px;
+  font-family: 'Lexend Deca';
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 79px;  
+}
+.logo{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.title{
+  padding-bottom: 10px;
+}
+nav div a{
+  margin: 10px;
+}
+h1{
+  font-family: 'Lexend Deca';
+  align-content: center;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  grid-auto-rows: minmax(100px, auto);
+  padding-bottom: 0px;
+}
+
+/* .wrapper div{
+  max-width: 390px;
+} */
+.one {
+  max-height: 1000px;
+  padding-bottom: 20px;
+  padding-top: 100px;
+}
+.dieta{
+  box-shadow:2px 2px 4px #afafaf;
+  border-radius: 50px;
+}
+.text-1{
+  padding-top: 20px;
+  justify-content: center;
+  font-family: 'Lexend Deca';
+}
+.text-2{
+  justify-content: center;
+  font-family: 'Lexend Deca';
+}
+.text-3{
+  justify-content: center;
+  font-family: 'Lexend Deca';
+}
+.titulo-sec1 h1{
+  padding-top: 70px;
+  font-size: 40px;
+  align-content:space-between;
+}
+.logos{
+  padding-top: 30px;
+}
+section{
+  text-align: center;
+  padding: 5%;
+  padding-bottom: 0px;
+}
+
+section div section{
+  padding: 0px;
+  padding-top: 1%;
+}
+
+section div{
+  justify-content: space-around;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.button{
+  background-color: #B9F29E;
+  color: beige;
+  border-radius: 20px;
+}
+
+
+.tabla h1{
+  text-align: left;
+}
+table{
+  max-width: 800px;
+  min-width: 350px;
+}
+#Beneficios .tabla table,
+#Beneficios .tabla td,
+#Beneficios .tabla tr{
+  border:none;
+  border-collapse: collapse;
+}
+
+#Beneficios td:nth-child(4),
+#Beneficios th:nth-child(4)
+{
+  background-color: #B9F29E;
+  text-align:  center;
+}
+
+
+td {
+    text-align: left;
+    
+}
+
+
+td img{
+  max-width: 68px;
+  max-height: 68px;
+}
+
+.planes{
+  display: flex;
+}
+.planes .tabla{
+  display: grid;
+  font-size: 50px;;
+}
+
+.planes .tabla table,
+.planes .tabla table td {
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid #B9F29E;
+ 
+}
+
+
+.planes .tabla thead,
+.planes .tabla table tfoot {
+    text-align: center;
+    background-color: #B9F29E;
+    color: #fff;
+    
+}
+
+.planes .tabla{
+  padding-bottom: 5%;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  background-color: #B9F29E;
+}
+
+footer div a{
+  margin: 20px;
+}
+
+footer div img{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+}
+
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color:#ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+body {
+	font-family: Tahoma;
+}
+
+header {
+	text-align: center;
+}
+
+#calendar {
+	width: 100%;	
+}
+
+#calendar a {
+	color: #8e352e;
+	text-decoration: none;
+}
+
+#calendar ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+#calendar li {
+	display: block;
+	float: left;
+	width:14.342%;
+	padding: 5px;
+	box-sizing:border-box;
+	border: 1px solid #ccc;
+	margin-right: -1px;
+	margin-bottom: -1px;
+}
+
+#calendar ul.weekdays {
+	height: 40px;
+	background: #8e352e;
+}
+
+#calendar ul.weekdays li {
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 20px;
+	border: none !important;
+	padding: 10px 6px;
+	color: #fff;
+	font-size: 13px;
+}
+
+#calendar .days li {
+	height: 180px;
+}
+
+#calendar .days li:hover {
+	background: #d3d3d3;
+}
+
+#calendar .date {
+	text-align: center;
+	margin-bottom: 5px;
+	padding: 4px;
+	background: #333;
+	color: #fff;
+	width: 20px;
+	border-radius: 50%;
+	float: right;
+}
+
+#calendar .event {
+	clear: both;
+	display: block;
+	font-size: 13px;
+	border-radius: 4px;
+	padding: 5px;
+	margin-top: 40px;
+	margin-bottom: 5px;
+	line-height: 14px;
+	background: #e4f2f2;
+	border: 1px solid #b5dbdc;
+	color: #009aaf;
+	text-decoration: none;
+}
+
+#calendar .event-desc {
+	color: #666;
+	margin: 3px 0 7px 0;
+	text-decoration: none;	
+}
+
+#calendar .other-month {
+	background: #f5f5f5;
+	color: #666;
+}
+
+/* ============================
+				Mobile Responsiveness
+   ============================*/
+
+
+@media(max-width: 768px) {
+
+	#calendar .weekdays, #calendar .other-month {
+		display: none;
+	}
+
+	#calendar li {
+		height: auto !important;
+		border: 1px solid #ededed;
+		width: 100%;
+		padding: 10px;
+		margin-bottom: -1px;
+	}
+
+	#calendar .date {
+		float: none;
+	}
+}
