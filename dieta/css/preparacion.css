@@ -11,20 +11,19 @@ body {
 .contenedor {
     padding: 20px 0;
     width: 90%
-
 }
 
-.titulo{
+.titulo {
     color: #00363c;
     font-size: 40px;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
-.subtitulo{
+.subtitulo {
     color: #000;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -32,7 +31,7 @@ body {
     padding-left: 20px;
 }
 
-.textos-header{
+.textos-header {
     text-decoration: none;
     color: #000;
     font-size: 20px;
@@ -40,50 +39,51 @@ body {
     text-align: center;
     padding-right: 50px;
     word-spacing: 70px;
-    
-}
-
-header{
-  background: #639eaf;
-  height: 90px;
-  text-align: left;
 
 }
 
-.contenido{
+header {
+    background: #639eaf;
+    height: 90px;
+    text-align: left;
+
+}
+
+.contenido {
     margin: 3px;
 }
 
-.caja{
+.caja {
     display: table-cell;
     padding: 10px;
     text-align: center;
     padding-left: 50px;
 }
 
-.titulo-contenido{
+.titulo-contenido {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.ingredientes{
+.preparacion {
     font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: #6CFA4D;
+    background: rgba(167, 25, 85, 1);
     height: 30px;
     padding-top: 5px;
     text-align: center;
 }
 
-  .logo{
+.logo {
     padding-top: 10px;
     padding-left: 10px;
-  }
-.tittle{
+}
+
+.tittle {
     padding-bottom: 70px;
 }
 
-.final{
+.final {
     display: table-cell;
     text-align: center;
     font-size: 25px;
