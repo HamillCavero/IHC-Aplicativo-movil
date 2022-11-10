@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* comentarios*/
+
+html {
+    font-size: 62.5%;
+}
+/*sin esto los contendores salen como columnas por predeterminado*/
+.contenedores{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.c1,.c2,.c3,.c4{
+    width: 100%;
+    min-width: 100px;
+    height: 100px;
+
+}
+
+.c1{
+    background-color: #BEDEDD;
+}
+.c2 {
+    background-color: #cac731;
+}
+.c3{
+    background-color: #ca316e;
+}
+.c4 {
+    background-color: #4bca31;
+}
+/*aplica desde 600*/
+@media (min-width:600px){
+        .c2,
+        .c3,
+        .c4{
+            width: 25%;
+           
+    
+        }
+}
